@@ -116,6 +116,11 @@ hash = "66f1350327721eddb21d3b1037bb7b0f8b38074ab08aac37e20aa797343e23b6"
 metafile = true
 
 [[files]]
+file = "mods/malilib.pw.toml"
+hash = "3926d859126491c673d921c3f3f93316766689ff0694f83d82255ec4776d3c74"
+metafile = true
+
+[[files]]
 file = "mods/midnightcontrols-extra.pw.toml"
 hash = "563a2484af46ebe381f606733cce8e75450dc8de141a115bb82120ddfc47d535"
 metafile = true
@@ -181,6 +186,11 @@ hash = "aa4dcf55ac3191b0b31437521714c1d28364c3396cf06ef07fa76a08488c1837"
 metafile = true
 
 [[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "08d9f157fea976ba8e7a20ebfce995fe5419ebddf581fcdab079aaceb33053e3"
+metafile = true
+
+[[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "4d817fb45630a8ea31f6f37ea93eacfdfd30cc8281f8cf4f93a039da4cea988e"
 metafile = true
@@ -198,4 +208,19 @@ metafile = true
 [[files]]
 file = "mods/wthit.pw.toml"
 hash = "53ba03514c34cf2540c35722a0405ffea1dca1f35eb4d91e8e016d89267eb2fa"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bsl-shaders.pw.toml"
+hash = "6f796fa32047df2fba6fca47eb50b8547a82f80c0522c9d0822a43436d5d1f6b"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-shaders-v4.pw.toml"
+hash = "d468216fa4b4917769fae3179b7bb47656f8a65474e87352d5b379783384e0af"
+metafile = true
+
+[[files]]
+file = "shaderpacks/rethinking-voxels.pw.toml"
+hash = "6e2b1e07d0a729f548c17b04b8bf2c06995bc840ae7ad2a89490d7249f386d72"
 metafile = true

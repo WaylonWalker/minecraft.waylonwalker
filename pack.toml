@@ -1,12 +1,12 @@
 name = "waylonwalker"
 author = "Waylon Walker"
-version = "1.0.0"
+version = "1.0.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "78119102306e33c2aea61a19772461e759b803851f49569ace8ab92193fb8ceb"
+hash = "01772ecd30b38ee10ba4d557ed76cdda5ad6aaabcc4af0092ecae368dd209086"
 
 [versions]
 fabric = "0.14.17"
