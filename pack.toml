@@ -1,0 +1,13 @@
+name = "waylonwalker"
+author = "Waylon Walker"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "78119102306e33c2aea61a19772461e759b803851f49569ace8ab92193fb8ceb"
+
+[versions]
+fabric = "0.14.17"
+minecraft = "1.19.2"
