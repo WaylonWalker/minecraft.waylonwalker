@@ -1,0 +1,22 @@
+name: relese
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+      - name: Setup Go environment
+        uses: actions/setup-go@v3.5.0
+      - run: go install github.com/packwiz/packwiz@latest
+      - run: packwiz refresh
+      - run: packwiz modrinth export
+      - run: |
+          VERSION=`cat pack.toml | grep ^version | sed 's/version = "\(.*\)"/\1/'`
+          gh release create v$VERSION --generate-notes *.mrpack
+      
