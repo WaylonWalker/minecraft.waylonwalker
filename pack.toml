@@ -1,16 +1,17 @@
 name = "waylonwalker"
 author = "Waylon Walker"
-version = "1.0.3"
+version = "1.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "67ea08a7fe31ce8de2c662bca6d8d67939e5e40c088f9e793707a2c7009365f5"
+hash = "edffce52f2c9fae77f1037e87edc6f31b681ec2823cc53148fb2fd6aa820a7f4"
 
 [versions]
-fabric = "0.14.17"
-minecraft = "1.19.2"
+fabric = "0.14.23"
+minecraft = "1.20.2"
 
 [options]
-acceptable-game-versions = ["1.19.2", "1.19"]
+acceptable-game-versions = ["1.20.0", "1.20.1", "1.20.2"]
+datapack-folder = "datapacks"

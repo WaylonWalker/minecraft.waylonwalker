@@ -5,8 +5,6 @@ darkMojangStudiosBackground:true
 simulationDistance:6
 guiScale:3
 maxFps:260
-resourcePacks:["vanilla","Fabric Mods","lambdabettergrass/default","continuity/default","continuity/glass_pane_culling_fix","file/Mod Menu Helper.zip","midnightcontrols/bedrock"]
-incompatibleResourcePacks:[]
 advancedItemTooltips:true
 tutorialStep:none
 skipMultiplayerWarning:true
@@ -19,3 +17,13 @@ key_key.antighost.reveal:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
+soundCategory_master:1.0
+soundCategory_music:0
+soundCategory_record:1.0
+soundCategory_weather:0.5
+soundCategory_block:1.0
+soundCategory_hostile:1.0
+soundCategory_neutral:1.0
+soundCategory_player:1.0
+soundCategory_ambient:0.5
+soundCategory_voice:1.0

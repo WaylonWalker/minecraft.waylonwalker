@@ -1,0 +1,13 @@
+name = "Starter Kit"
+filename = "starterkit-1.20.2-5.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6L3ydNi8/versions/PmrWrfiI/starterkit-1.20.2-5.2.jar"
+hash-format = "sha1"
+hash = "8f4cb3407f46cf574b833a6b73ea4fe087e3c84c"
+
+[update]
+[update.modrinth]
+mod-id = "6L3ydNi8"
+version = "PmrWrfiI"
